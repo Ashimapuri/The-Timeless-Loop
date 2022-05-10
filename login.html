@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            
+            text-align: center;
+            justify-content: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: large;
+            color:blue;
+        }
+        #name{
+
+        }
+    submit:hover{
+        color:red;
+        
+    }
+    </style>
+</head>
+<body>
+    <form method="post">
+        <label for="name">Name*</label><br>
+        <input id="name" type="text" placeholder="Name" required></input><br><br>
+        <label for="email">Email*</label><br>
+         <input id="email" type="email" placeholder="email" required></input><br><br>
+        <label for="gender">Gender*</label><br>
+       
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" id="gender" required>
+        <label for="gender">Female</label>
+        <input type="radio" name="gender" id="gender" required><br><br>
+         
+            <label for="dob">DOB*</label>
+            <input id="dob" type="date" placeholder="dob" required></input><br><br>
+            <label for="password">Password*</label>
+            <input id="password" type="password" placeholder="password" required></input><br>
+            <button type="submit" id="submit" > Submit </button>
+            </form>
+</body>
+</html>
