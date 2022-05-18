@@ -11,7 +11,7 @@
             text-align: center;
             justify-content: center;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-size: large;
+            font-size: larger;
             color:blue;
         }
         #name{
@@ -21,9 +21,16 @@
         color:red;
         
     }
+    container{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
     </style>
 </head>
-<body>
+<body id="container">
     <form method="post">
         <label for="name">Name*</label><br>
         <input id="name" type="text" placeholder="Name" required></input><br><br>
@@ -39,8 +46,8 @@
             <label for="dob">DOB*</label>
             <input id="dob" type="date" placeholder="dob" required></input><br><br>
             <label for="password">Password*</label>
-            <input id="password" type="password" placeholder="password" required></input><br>
-            <button type="submit" id="submit" > Submit </button>
+            <input id="password" type="password" placeholder="password" required></input><br><br>
+            <button type="submit" id="submit"font-weight="bold"  font-size="30px"> Submit </button>
             </form>
 </body>
 </html>
